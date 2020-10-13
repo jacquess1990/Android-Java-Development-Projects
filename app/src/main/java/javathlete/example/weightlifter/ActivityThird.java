@@ -1,6 +1,7 @@
 package javathlete.example.weightlifter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -152,6 +153,14 @@ public class ActivityThird extends Activity {
                 Log.d(TAG, "onCheckedChanged: out");
             }
             // if all conditions are satisfied, the participant can get tested
+        });
+
+        buttonTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent testingIntent = new Intent(ActivityThird.this,ActivityFourth.class);
+                startActivity(testingIntent);
+            }
         });
     }
 }
