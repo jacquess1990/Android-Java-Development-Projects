@@ -40,6 +40,8 @@ public class ActivityFourth extends AppCompatActivity {
                 editTextViewParse();
             }
         });
+
+
         }
 
         public void editTextViewParse () {
@@ -50,9 +52,16 @@ public class ActivityFourth extends AppCompatActivity {
         double finalOutcome = myFirstEditValue / (1.0278 - 0.0278 * mySecondEditValue);
         String finalOutcome1 = String.valueOf(finalOutcome);
         RmOP.setText(finalOutcome1);
+    }
 
-
-
+    public void editTextViewParseSquat  () {
+        String firstEditValue = editTextLiftedWeight.getText().toString();
+        String secondEditValue = editNumberReps.getText().toString();
+        double myFirstEditValue = Double.parseDouble(firstEditValue);
+        double mySecondEditValue = Double.parseDouble(secondEditValue);
+        double finalOutcome = myFirstEditValue / (1.0278 - 0.0278 * mySecondEditValue);
+        String finalOutcome1 = String.valueOf(finalOutcome);
+        RmOP.setText(finalOutcome1);
     }
 
 }
