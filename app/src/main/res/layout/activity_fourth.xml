@@ -351,7 +351,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editTextNumberDecimal3"
+                    android:id="@+id/benchPressWeight"
                     android:layout_width="57dp"
                     android:layout_height="match_parent"
                     android:layout_margin="16dp"
@@ -359,7 +359,7 @@
                     android:inputType="numberDecimal" />
 
                 <EditText
-                    android:id="@+id/editTextNumber3"
+                    android:id="@+id/benchPressWeightReps"
                     android:layout_width="63dp"
                     android:layout_height="match_parent"
                     android:layout_margin="16dp"
@@ -367,14 +367,14 @@
                     android:inputType="number" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/weightLiftedBenchPress"
                     android:layout_width="84dp"
                     android:layout_height="match_parent"
                     android:layout_margin="16dp"
-                    android:text="Button" />
+                    android:text="1RM" />
 
                 <TextView
-                    android:id="@+id/textView28"
+                    android:id="@+id/textViewBPOP"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="16dp"
