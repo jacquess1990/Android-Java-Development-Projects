@@ -53,7 +53,8 @@ public class ActivityFirst extends Activity implements DatePickerDialog.OnDateSe
         buttonBirthDate = (Button) findViewById(R.id.buttonBirthDate);
         buttonTestDate = (Button) findViewById(R.id.buttonTestDate);
         buttonQ = (Button) findViewById(R.id.buttonQ);
-
+        textViewTDOP.setText("");
+        textViewBDOutPut.setText("");
 
         buttonBirthDate.setOnClickListener(new View.OnClickListener() {
             @Override

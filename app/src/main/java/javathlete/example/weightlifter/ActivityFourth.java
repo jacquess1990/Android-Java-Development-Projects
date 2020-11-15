@@ -45,21 +45,28 @@ public class ActivityFourth extends AppCompatActivity {
         editTextLiftedWeight = (EditText) findViewById(R.id.editTextLiftedWeight);
         editNumberReps = (EditText) findViewById(R.id.editNumberReps);
         RmOP = (TextView) findViewById(R.id.textViewRmOP);
+        RmOP.setText("");
 
         editTextNumberSquatWeight = (EditText) findViewById(R.id.editTextNumberSquatWeight);
         editTextNumberSquatReps = (EditText) findViewById(R.id.editTextNumberSquatReps);
         weightLiftedSquat = (Button) findViewById(R.id.weightLiftedSquat);
         textViewSquatOP = (TextView) findViewById(R.id.textViewSquatOP);
+        textViewSquatOP.setText("");
 
         editTextNumberLyingBenchRow = (EditText) findViewById(R.id.editTextNumberLyingBenchRow);
         editTextNumberLBRReps = (EditText) findViewById(R.id.editTextNumberLBRReps);
         weightLiftedLBR = (Button) findViewById(R.id.weightLiftedLBR);
         textViewLBROP = (TextView) findViewById(R.id.textViewRmLBROP);
+        textViewLBROP.setText("");
 
         benchPressWeight = (EditText) findViewById(R.id.benchPressWeight);
         benchPressWeightReps = (EditText) findViewById(R.id.benchPressWeightReps);
         weightLiftedBenchPress = (Button) findViewById(R.id.weightLiftedBenchPress);
         textViewBPOP = (TextView) findViewById(R.id.textViewBPOP);
+        textViewBPOP.setText("");
+
+
+
 
 
 
