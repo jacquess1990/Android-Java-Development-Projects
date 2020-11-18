@@ -125,11 +125,13 @@
 
                 <TextView
                     android:id="@+id/textViewRmOP"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
+                    android:layout_width="83dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="8dp"
+                    android:maxLength="5"
                     android:text="TextView"
-                    android:textSize="12sp" />
+                    android:textAlignment="viewStart"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -222,11 +224,12 @@
 
                 <TextView
                     android:id="@+id/textViewSquatOP"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:layout_weight="1"
-                    android:text="TextView" />
+                    android:layout_width="78dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="8dp"
+                    android:maxLength="5"
+                    android:text="TextView"
+                    android:textAlignment="viewStart" />
             </LinearLayout>
 
             <TextView
@@ -304,10 +307,12 @@
 
                 <TextView
                     android:id="@+id/textViewRmLBROP"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="16dp"
-                    android:text="TextView" />
+                    android:layout_width="76dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="8dp"
+                    android:maxLength="5"
+                    android:text="TextView"
+                    android:textAlignment="viewStart" />
             </LinearLayout>
 
             <TextView
@@ -375,10 +380,12 @@
 
                 <TextView
                     android:id="@+id/textViewBPOP"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="16dp"
-                    android:text="TextView" />
+                    android:layout_width="78dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="8dp"
+                    android:maxLength="5"
+                    android:text="TextView"
+                    android:textAlignment="viewStart" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
